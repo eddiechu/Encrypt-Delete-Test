@@ -284,7 +284,6 @@ namespace EncryptDelTestv4
                 Console.WriteLine(NumtoString(CharNum) + " '{0}'", newfilename);
 
                 DecryptFile(@path, @newfilename, GlobalVar.sSecretKey);
-
             }
         }
     }
