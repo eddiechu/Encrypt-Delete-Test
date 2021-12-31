@@ -131,8 +131,6 @@ $objButton.Text = "Choose a folder or network drive to process the test"
 $objButton.AutoSize = $True
 $objButton.Add_Click($button_click)
 $objForm.Controls.Add($objButton)
-
 $objForm.ShowDialog()
-
 $aesManaged.Dispose()
 $shaManaged.Dispose()
