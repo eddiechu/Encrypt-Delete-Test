@@ -134,3 +134,4 @@ $objForm.Controls.Add($objButton)
 $objForm.ShowDialog()
 $aesManaged.Dispose()
 $shaManaged.Dispose()
+
