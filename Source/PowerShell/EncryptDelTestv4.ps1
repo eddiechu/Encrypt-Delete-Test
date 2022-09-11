@@ -12,7 +12,7 @@ $encryptor = $aesManaged.CreateEncryptor()
 
 Function EncryptFile($File){
   $plainBytes = [System.IO.File]::ReadAllBytes($File)
-  $outPath = $File + ".crypted"
+  $outPath = $File + ".gg"
 
   $encryptedBytes = $encryptor.TransformFinalBlock($plainBytes, 0, $plainBytes.Length)
   $encryptedBytes = $aesManaged.IV + $encryptedBytes
@@ -30,7 +30,7 @@ Function EncryptFile($File){
 
 Function DecryptFile($File){
   $cipherBytes = [System.IO.File]::ReadAllBytes($File)
-  $outPath = $File -replace ".crypted"
+  $outPath = $File -replace ".gg"
 
   $aesManaged.IV = $cipherBytes[0..15]
   $decryptor = $aesManaged.CreateDecryptor()
@@ -44,9 +44,9 @@ Function DecryptFile($File){
 Function Banner{
   "<html>" | Out-File -FilePath popup.html
   "<head>" | Out-File -FilePath popup.html -Append
-  "<title>EncryptDelTestv4</title>" | Out-File -FilePath popup.html -Append
+  "<title>EncryptDelTestv4.1</title>" | Out-File -FilePath popup.html -Append
   "<body bgcolor=red>" | Out-File -FilePath popup.html -Append
-  "<font size=+10 color=white><b>[EncryptDelTestv4]</b></font><br><br><br><br>" | Out-File -FilePath popup.html -Append
+  "<font size=+10 color=white><b>[EncryptDelTestv4.1]</b></font><br><br><br><br>" | Out-File -FilePath popup.html -Append
   "<font size=+10 color=white>Your anti-virus software <u>CANNOT</u> detect this test</font><br><br>" | Out-File -FilePath popup.html -Append
   "<br>" | Out-File -FilePath popup.html -Append
   "<br>" | Out-File -FilePath popup.html -Append
@@ -71,15 +71,15 @@ Add-Type -AssemblyName System.Drawing
 
 $objForm = New-Object System.Windows.Forms.Form
 $objForm.AutoSize = $True
-$objForm.Text = "[Encrypt Delete Test v4]"
+$objForm.Text = "[Encrypt Delete Test v4.1]"
 $objForm.StartPosition = "CenterScreen"
 
 $objLabel = New-Object System.Windows.Forms.label
-$objLabel.Text = "[Encrypt Delete Test v4]
+$objLabel.Text = "[Encrypt Delete Test v4.1]
 Simulate ransomware encryption operation
 By Eddie Chu eddiechu.android@gmail.com
 Please download the original and latest version from https://github.com/eddiechu/Encrypt-Delete-Test
-Version v4.0.0 (22/Sept/2021)`r`n
+Version v4.1 (11/Sep/2022)`r`n
 This tool encrypts - overwrites - renames the file under selected folder and it's subfolder(s))`r`n
 [Caution]
 You use this tool completely at your own risk.
@@ -116,12 +116,12 @@ $button_click=
     If ($FolderBrowserDialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK){
       Write-Host $FolderBrowserDialog.SelectedPath
       Write-Host
-      Get-ChildItem $FolderBrowserDialog.SelectedPath -Recurse -Attributes !Directory -Include *.crypted | % {DecryptFile $_.FullName}
+      Get-ChildItem $FolderBrowserDialog.SelectedPath -Recurse -Attributes !Directory -Include *.gg | % {DecryptFile $_.FullName}
       Write-Host "Operation completed!"
     }
   }
   Else{
-    [System.Windows.Forms.MessageBox]::Show('Please select option',"[Encrypt Delete Test v4]",[System.Windows.Forms.MessageBoxButtons]::OK,[System.Windows.Forms.MessageBoxIcon]::Warning)
+    [System.Windows.Forms.MessageBox]::Show('Please select option',"[Encrypt Delete Test v4.1]",[System.Windows.Forms.MessageBoxButtons]::OK,[System.Windows.Forms.MessageBoxIcon]::Warning)
   }
 }  
 
