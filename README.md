@@ -8,7 +8,7 @@ We see many anti-virus / next generation endpoints claim ransomware protection, 
 
 Even those vendors sell high ranking, expensive, feature rich, detail EDR, heuristic detection, AI, ML and granular control, customers still got Ransomware, most of PC and servers were locked.
 
-[![Watch the video](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/mr.bean.jpg)](https://youtu.be/CQIq8GDtDG0)
+[![Watch the video](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/mr.bean2.gif)](https://youtu.be/CQIq8GDtDG0)
 
 Vendors usually advise you to turn on all block mode, make sure all computer have the endpoint software installed, keep computer patch up to date, review log regularly, follow up abnormal event, then MOST of invasion can be stopped.
 
