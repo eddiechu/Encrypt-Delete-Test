@@ -42,7 +42,7 @@ EncryptDelTestv4_1.jar
 (usually java.exe or javaw.exe is a trusted software, it is more difficult for endpoint to detect)
 
 
-EncryptDelTestv4.1.exe
+EncryptDelTestv4.1.exe / NaughtyDelTestv4.1.exe
 - runs on Windows
 - requires at least .NET Framework 4.0
 
@@ -62,6 +62,9 @@ EncryptDelTestv4.1.dll
 - rundll32.exe EncryptDelTestv4.1.dll,Encrypt
 - rundll32.exe EncryptDelTestv4.1.dll,Decrypt
 
+
+NaughtyDelTestv4.1.doc
+- hide in Word Document
 
 
 | EncryptDelTestv4_1.jar | EncryptDelTestv4.1.exe | EncryptDelTestv4.1.ps1 | 
