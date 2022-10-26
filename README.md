@@ -63,11 +63,11 @@ EncryptDelTestv4.1.dll
 - rundll32.exe EncryptDelTestv4.1.dll,Decrypt
 
 
-NaughtyDelTestv4.1.doc
+NaughtyDelTestv4.1.doc (may be blocked by Microsoft)
 - hide in Word Document
 
 
-putty_naughty.exe
+putty_naughty.exe (may be blocked by anti-virus)
 - inject command in putty.exe
 
 
