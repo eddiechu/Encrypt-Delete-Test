@@ -63,7 +63,7 @@ EncryptDelTestv4.1.dll
 - rundll32.exe EncryptDelTestv4.1.dll,Decrypt
 
 
-NaughtyDelTestv4.1.doc (may be blocked by Microsoft)
+NaughtyDelTestv4.1.xls (may be blocked by anti-virus)
 - hide in Word Document
 
 
