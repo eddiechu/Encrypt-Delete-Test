@@ -67,6 +67,10 @@ NaughtyDelTestv4.1.doc
 - hide in Word Document
 
 
+putty_naughty.exe
+- inject command in putty.exe
+
+
 | EncryptDelTestv4_1.jar | EncryptDelTestv4.1.exe | EncryptDelTestv4.1.ps1 | 
 |---------------|---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen41.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen40.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen43.gif)|
