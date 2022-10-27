@@ -37,7 +37,7 @@ It tests if your endpoint can detect when encryption is happening (like base on 
 It is great if you can share your test result with me for my record.
 
 
-[alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/summary.png)
+[Methods](https://github.com/eddiechu/Encrypt-Delete-Test/blob/main/Image/summary.png)
 
 
 EncryptDelTestv4_1.jar
