@@ -75,7 +75,7 @@ putty_naughty.exe (may be blocked by anti-virus)
 - inject command in putty.exe
 
 
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/EncryptDelTestv4.1.gif)
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/EncryptDelTestv4.1b.gif)
 
 
 
