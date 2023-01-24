@@ -75,6 +75,10 @@ putty_naughty.exe (may be blocked by anti-virus)
 - inject command in putty.exe
 
 
+EncryptDelTestv4.1.html
+- HTML smuggling to encode and embedded payload
+
+
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/EncryptDelTestv4.1b.gif)
 
 
