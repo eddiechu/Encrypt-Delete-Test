@@ -77,7 +77,7 @@ putty_naughty.exe (may be blocked by anti-virus)
 
 EncryptDelTestv4.1.html
 - HTML smuggling to encode and embedded payload
-
+- https://securitylab.pages.dev/EncryptDelTestv4.1
 
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/EncryptDelTestv4.1b.gif)
 
