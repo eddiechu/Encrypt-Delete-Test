@@ -15,9 +15,6 @@ How many companies in the world can make sure this?  Why can't it stop encryptio
 **Advanced penetration detection is important, but stop encryption is the last defense, which cannot be neglected.**
 
 
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/EncryptDelTestv4.1b.gif)
-
-
 
 # Which brand can detect encryption operation?
 
@@ -33,6 +30,11 @@ Hope there is no more ransomware incident!  Please share this blog with friends 
 
 
 # This tool
+
+
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/EncryptDelTestv4.1b.gif)
+
+
 
 This tool encrypts - overwrite - rename the files in the selected (local or network) folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
