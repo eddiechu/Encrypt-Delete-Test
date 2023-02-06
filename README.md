@@ -15,6 +15,10 @@ How many companies in the world can make sure this?  Why can't it stop encryptio
 **Advanced penetration detection is important, but stop encryption is the last defense, which cannot be neglected.**
 
 
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/EncryptDelTestv4.1b.gif)
+
+
+
 # Which brand can detect encryption operation?
 
 That's why I developed this tool.  It is not to replicate found malware, not vendor test tool, no bias, no need to install, just do encrypt (in memory) - overwrite (original file) - rename (file extension), simulate the core operation of ransomware.
@@ -79,7 +83,6 @@ EncryptDelTestv4.1.html
 - HTML smuggling to encode and embedded payload
 - alternative download https://securitylab.pages.dev/EncryptDelTestv4.1
 
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/EncryptDelTestv4.1b.gif)
 
 
 
@@ -151,4 +154,4 @@ pentest
 penetration test
 blue team
 red team
-
+poc
