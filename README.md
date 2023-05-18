@@ -6,10 +6,6 @@ Even those vendors sell high ranking, expensive, feature rich, detail EDR, heuri
 
 [![Watch the video](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/mr.bean2.gif)](https://youtu.be/CQIq8GDtDG0)
 
-Vendors usually advise you to turn on all block mode, make sure all computer have the endpoint software installed, keep computer patch up to date, review log regularly, follow up abnormal event, then MOST of invasion can be stopped.
-
-How many companies in the world can make sure this?  Why can't it stop encryption after bypass invasion detection?
-
 **Stop encryption is the last defense, which cannot be neglected.**
 
 **Advanced penetration detection is important, but stop encryption is the last defense, which cannot be neglected.**
