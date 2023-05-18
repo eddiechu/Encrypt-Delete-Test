@@ -1,15 +1,13 @@
 # Really can protect from ransomware encryption?
 
-We see many anti-virus / next generation endpoints claim ransomware protection, which can just detect and stop invasion, but CANNOT AWARE the encryption process.
+We often come across antivirus and next-generation endpoint solutions that claim to offer ransomware protection, boasting advanced capabilities in detecting activities such as penetration, invasion, and pre-encryption through the use of AI and machine learning. However, these solutions may still fail to prevent the encryption process if they happen to miss detecting these malicious activities.
 
-Even those vendors sell high ranking, expensive, feature rich, detail EDR, heuristic detection, AI, ML and granular control, customers still got Ransomware, most of PC and servers were locked.
+To address this concern, we have developed a simple tool that simulates the ransomware encryption process. This tool can help you determine whether your EDR (Endpoint Detection and Response) or antivirus software is capable of blocking such malware encryption behaviors.
+
 
 [![Watch the video](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/mr.bean2.gif)](https://youtu.be/CQIq8GDtDG0)
 
 **Stop encryption is the last defense, which cannot be neglected.**
-
-**Advanced penetration detection is important, but stop encryption is the last defense, which cannot be neglected.**
-
 
 
 # Which brand can detect encryption operation?
