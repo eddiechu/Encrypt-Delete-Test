@@ -79,7 +79,7 @@ EncryptDelTestv4.1.html
 - HTML smuggling to encode and embedded payload
 - alternative download https://securitylab.pages.dev/EncryptDelTestv4.1
 
-Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}
+$ `\textcolor{teal}{ \text{ Eq.(3-5) in the main text} } `$
 
 | EncryptDelTestv4_1.jar | EncryptDelTestv4.1.exe | EncryptDelTestv4.1.ps1 | 
 |---------------|---------------|---------------|
