@@ -82,6 +82,7 @@ EncryptDelTestv4.1.html
 $${\color{red}Red}$$
 <code style="color : red">text</code>
 #aarrggbb[Text using 8 chars notation (red = ffff0000)]
+#0f0[This is green text]
 
 | EncryptDelTestv4_1.jar | EncryptDelTestv4.1.exe | EncryptDelTestv4.1.ps1 | 
 |---------------|---------------|---------------|
