@@ -80,7 +80,7 @@ EncryptDelTestv4.1.html
 - alternative download https://securitylab.pages.dev/EncryptDelTestv4.1
 
 $${\color{red}Red}$$
-{\color{red}Big}}\
+{\color{red}Big}
 
 | EncryptDelTestv4_1.jar | EncryptDelTestv4.1.exe | EncryptDelTestv4.1.ps1 | 
 |---------------|---------------|---------------|
