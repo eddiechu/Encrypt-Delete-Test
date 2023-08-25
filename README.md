@@ -80,8 +80,7 @@ EncryptDelTestv4.1.html
 - alternative download https://securitylab.pages.dev/EncryptDelTestv4.1
 
 
-:pushpin: **Check**
-A very <span style='color: red;'>long</span> sentence.
+:pushpin: Since most of binary files are being blocked by antivirus signature from time to time, pls copy and paste the PowerShell code to terminal, this way can bypass antivirus signature and simulate the real ransomware behaviour
 
 
 | EncryptDelTestv4_1.jar | EncryptDelTestv4.1.exe | EncryptDelTestv4.1.ps1 | 
