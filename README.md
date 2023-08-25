@@ -79,8 +79,9 @@ EncryptDelTestv4.1.html
 - HTML smuggling to encode and embedded payload
 - alternative download https://securitylab.pages.dev/EncryptDelTestv4.1
 
-$${\color{red}Red}$$
-{\color{red}Big}
+<span style="color:red">
+Text content
+</span>
 
 | EncryptDelTestv4_1.jar | EncryptDelTestv4.1.exe | EncryptDelTestv4.1.ps1 | 
 |---------------|---------------|---------------|
