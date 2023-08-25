@@ -80,9 +80,6 @@ EncryptDelTestv4.1.html
 - alternative download https://securitylab.pages.dev/EncryptDelTestv4.1
 
 $${\color{red}Red}$$
-<code style="color : red">text</code>
-#aarrggbb[Text using 8 chars notation (red = ffff0000)]
-#0f0[This is green text]
 {\color{red}Big}}\
 
 | EncryptDelTestv4_1.jar | EncryptDelTestv4.1.exe | EncryptDelTestv4.1.ps1 | 
