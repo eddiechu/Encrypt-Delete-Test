@@ -80,7 +80,8 @@ EncryptDelTestv4.1.html
 - alternative download https://securitylab.pages.dev/EncryptDelTestv4.1
 
 
-:heavy_check_mark: **Check**
+:pushpin: **Check**
+A very <span style='color: red;'>long</span> sentence.
 
 
 | EncryptDelTestv4_1.jar | EncryptDelTestv4.1.exe | EncryptDelTestv4.1.ps1 | 
