@@ -14,7 +14,7 @@ To address this concern, we have developed a simple tool that simulates the rans
 
 # Which brand can detect encryption operation?
 
-That's why I developed this tool.  It is not to replicate found malware, not vendor test tool, no bias, no need to install, just do encrypt (in memory) - overwrite (original file) - rename (file extension), simulate the core operation of ransomware.
+That's why I developed this tool.  It is not to replicate found malware, not vendor test tool, no bias, no need to install, just do **encrypt (in memory) - overwrite (original file) - rename (file extension)**, simulate the core operation of ransomware.
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
@@ -32,7 +32,7 @@ Hope there is no more ransomware incident!  Please share this blog with friends 
 
 
 
-This tool **encrypts - overwrite - rename* the files in the selected (local or network) folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
+This tool encrypts - overwrite - rename the files in the selected (local or network) folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
 It tests if your endpoint can detect when encryption is happening (like base on the files change pattern), but NOT to test if your endpoint can prevent it from start.
 
