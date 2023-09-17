@@ -32,7 +32,7 @@ Hope there is no more ransomware incident!  Please share this blog with friends 
 
 
 
-This tool encrypts - overwrite - rename the files in the selected (local or network) folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
+This tool **encrypts - overwrite - rename* the files in the selected (local or network) folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
 It tests if your endpoint can detect when encryption is happening (like base on the files change pattern), but NOT to test if your endpoint can prevent it from start.
 
