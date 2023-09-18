@@ -1,5 +1,8 @@
 :pushpin: :pushpin: :pushpin: Since most of binary files are being blocked by antivirus signature from time to time, please copy and paste the PowerShell code to terminal, this way can bypass antivirus signature and simulate the real ransomware behaviour :pushpin: :pushpin: :pushpin: 
 
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/powershell1.gif)
+
+
 # Really can protect from ransomware encryption?
 
 We often come across antivirus and next-generation endpoint solutions that claim to offer ransomware protection, boasting advanced capabilities in detecting activities such as penetration, invasion, and pre-encryption through the use of AI and machine learning. However, these solutions may still fail to prevent the encryption process if they happen to miss detecting these malicious activities.
