@@ -157,3 +157,4 @@ penetration test
 blue team
 red team
 poc
+ciso
